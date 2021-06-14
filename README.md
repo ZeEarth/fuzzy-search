@@ -2,12 +2,12 @@
 
 Fuzzy text searching plugin for Meteor based on Levenshtein distance algorithm. You can use it to implement "Did you mean..." feature in your program (and more).
 
-Function `mostSimilarString` searches given cursor for search string and returns the most similar one.
+Function `mostSimilarWords` searches given cursor for search string and returns the most similar one.
 If you have "beer", "juice" and "milk" searching for string "bear" will return "beer".
 This also works with multiple words: if you search for "Nors Chuk" you will get "Chuck Norris".
 
 ## How to install 
-1. `meteor add perak:fuzzy-search`
+1. `meteor add zeearth:fuzzy-search`
 
 ## How to use
 
@@ -16,7 +16,7 @@ Function searches given cursor for search string and returns the most similar on
 #### Syntax:
 
 ```javascript
-mostSimilarString(cursor, fieldName, searchString, maxDistance, caseSensitive)
+mostSimilarWords(cursor, fieldName, searchString, maxDistance, caseSensitive)
 ```
 
 
@@ -70,7 +70,7 @@ if(someCursor.count() == 0)
 	var tempCursor = Drinks.find({ }, { drink_name: true });
 
 	// find most similar string
-    var bestWord = mostSimilarString(tempCursor, "drink_name", searchString, -1, false);
+    var bestWord = mostSimilarWords(tempCursor, "drink_name", searchString, -1, false);
 
     // in this example, bestWord is "beer", show user a suggestion: "Did you mean beer?"
     // ...

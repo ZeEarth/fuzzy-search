@@ -1,9 +1,9 @@
 {
   "name": "fuzzy-search",
   "description": "Fuzzy text searching plugin for Meteor",
-  "homepage": "https://github.com/perak/fuzzy-search",
-  "author": "Petar Korponaic",
+  "homepage": "https://github.com/ZeEarth/fuzzy-search",
+  "author": "ZeEarth",
   "version": "0.1.9",
-  "git": "https://github.com/perak/fuzzy-search.git",
+  "git": "https://github.com/zeearth/fuzzy-search.git",
   "packages": {}
 }
