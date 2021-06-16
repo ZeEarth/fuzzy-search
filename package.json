@@ -1,0 +1,22 @@
+{
+  "name": "fuzzy-search",
+  "version": "1.0.0",
+  "description": "Test MPEC",
+  "main": "lib/fuzzy-search.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeEarth/fuzzy-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeEarth/fuzzy-search/issues"
+  },
+  "homepage": "https://github.com/ZeEarth/fuzzy-search#readme"
+}
