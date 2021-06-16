@@ -1,7 +1,7 @@
 {
   "name": "fuzzy-search",
   "version": "1.0.0",
-  "description": "Test MPEC",
+  "description": "Test MPEC - don't use in production",
   "main": "package.js",
   "directories": {
     "lib": "lib"

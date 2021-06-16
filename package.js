@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Fuzzy text searching plugin for Meteor"
+  summary: "Fuzzy text searching plugin for Meteor - TEST ONLY"
 });
 
 Package.on_use(function (api) {
